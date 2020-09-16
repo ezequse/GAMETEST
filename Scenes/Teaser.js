@@ -21,12 +21,12 @@ class Teaser extends Phaser.Scene {
       uno.setInteractive();
       uno.on("pointerdown", () => {
         escena = 1;
-        this.scene.start('inicio', escena);
+        this.scene.start('lvl1');
       });
       dos.setInteractive();
       dos.on("pointerdown", () => {
         escena = 2;
-        this.scene.start('inicio', escena);
+        this.scene.start('lvl2');
         
       }); 
 
